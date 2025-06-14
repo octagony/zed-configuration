@@ -1,0 +1,70 @@
+{
+	"tab_size": 2,
+	"ui_font_size": 20,
+	"ui_font_family": "JetBrains Mono",
+	"buffer_font_size": 20,
+	"buffer_font_family": "JetBrains Mono",
+	"theme": {
+		"mode": "system",
+		"light": "Catppuccin Mocha",
+		"dark": "One Dark"
+	},
+	"bottom_dock_layout": "right_aligned",
+	"auto_install_extensions": {
+		"html": true,
+		"scss": true,
+		"vue": true,
+		"toml": true,
+		"svelte": true,
+		"lua": true,
+		"astro": true,
+		"emmet": true
+	},
+	"autosave": "off",
+	"restore_on_startup": "none",
+	"current_line_highlight": "none",
+	"tab_bar": {
+		"show_nav_history_buttons": false
+	},
+	"tabs": {
+		"file_icons": true,
+		"git_status": false,
+		"show_close_button": "always",
+		"show_diagnostics": "all"
+	},
+	"toolbar": {
+		"breadcrumbs": true,
+		"quick_actions": false
+	},
+	"file_finder": {
+		"modal_max_width": "medium"
+	},
+	"use_smartcase_search": true,
+	"icon_theme": {
+		"mode": "dark",
+		"dark": "Catppuccin Mocha",
+		"light": "Catppuccin Mocha"
+	},
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
+	},
+	"hard_tabs": true,
+	"use_system_path_prompts": false,
+	"terminal": {
+		"scrollbar": {
+			"show": "never"
+		}
+	},
+	"project_panel": {
+		"default_width": 375,
+		"dock": "right",
+		"entry_spacing": "standard",
+		"folder_icons": true,
+		"git_status": true,
+		"indent_size": 12,
+		"scrollbar": {
+			"show": "never"
+		}
+	}
+}
