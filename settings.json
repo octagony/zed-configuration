@@ -1,13 +1,19 @@
 {
-	"tab_size": 2,
+	"tab_size": 4,
 	"ui_font_size": 20,
-	"ui_font_family": "JetBrains Mono",
+	"ui_font_family": "JetBrainsMono Nerd Font",
 	"buffer_font_size": 20,
-	"buffer_font_family": "JetBrains Mono",
+	"buffer_font_family": "JetBrainsMono Nerd Font",
+	"buffer_line_height": {
+		"custom": 1.6
+	},
+	"buffer_font_features": {
+		"calt": false
+	},
 	"theme": {
 		"mode": "system",
 		"light": "Catppuccin Mocha",
-		"dark": "One Dark"
+		"dark": "Catppuccin Mocha"
 	},
 	"bottom_dock_layout": "right_aligned",
 	"auto_install_extensions": {
@@ -21,7 +27,7 @@
 		"emmet": true
 	},
 	"autosave": "off",
-	"restore_on_startup": "none",
+	"restore_on_startup": "last_session",
 	"current_line_highlight": "none",
 	"tab_bar": {
 		"show_nav_history_buttons": false
@@ -33,7 +39,7 @@
 		"show_diagnostics": "all"
 	},
 	"toolbar": {
-		"breadcrumbs": true,
+		"breadcrumbs": false,
 		"quick_actions": false
 	},
 	"file_finder": {
@@ -59,12 +65,18 @@
 	"project_panel": {
 		"default_width": 375,
 		"dock": "right",
-		"entry_spacing": "standard",
+		"entry_spacing": "comfortable",
 		"folder_icons": true,
 		"git_status": true,
 		"indent_size": 12,
 		"scrollbar": {
 			"show": "never"
 		}
-	}
+	},
+	"git": {
+		"inline_blame": {
+			"enabled": false
+		}
+	},
+	"format_on_save": "off"
 }
